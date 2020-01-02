@@ -39,6 +39,8 @@ def map_to_square(source_array)
   square_array
 end
 
+# Reduce methods below
+
 def reduce_to_total(source_array, starting_point)
   result = starting_point 
   index = 0 
