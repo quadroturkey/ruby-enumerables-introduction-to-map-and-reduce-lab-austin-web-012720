@@ -1,3 +1,5 @@
+require 'pry'
+
 def map_to_negativize(source_array)
   result = []
   index = 0 
