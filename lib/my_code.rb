@@ -9,7 +9,6 @@ def map_to_negativize(source_array)
   result
 end
 
-
 def map_to_no_change(source_array)
   no_change_array = []
   index = 0 
@@ -20,17 +19,22 @@ def map_to_no_change(source_array)
   no_change_array
 end
 
-
 def map_to_double(source_array)
   double_array = []
   index = 0 
   while index < source_array.length do 
-    double_array << source_array[index] * 2 
+    double_array << source_array[index] * 2
     index += 1 
   end
   double_array
 end
 
 def map_to_sqaure(source_array)
-  
+  sqaure_array = []
+  index = 0 
+  while index < source_array.length do 
+    sqaure_array << source_array **= 2 
+    index += 1 
+  end
+  sqaure_array
 end
