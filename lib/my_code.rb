@@ -6,5 +6,5 @@ def map_to_negativize(source_array)
     result << new_num
     index += 1 
   end
-  
+  result
 end
