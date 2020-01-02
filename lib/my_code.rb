@@ -30,3 +30,7 @@ def map_to_double(source_array)
   end
   double_array
 end
+
+def map_to_sqaure(source_array)
+  
+end
