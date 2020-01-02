@@ -20,3 +20,11 @@ def map_to_no_change(source_array)
   no_change_array
 end
 
+
+def map_to_double(source_array)
+  double_array = []
+  index = 0 
+  while index < source_array.length do 
+    
+  end
+end
