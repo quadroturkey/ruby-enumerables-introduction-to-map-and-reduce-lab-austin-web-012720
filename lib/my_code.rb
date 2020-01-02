@@ -42,7 +42,11 @@ end
 # Reduce methods below
 
 def reduce_to_total(source_array, starting_point)
-  result = starting_point 
+  if starting_point
+    result = starting_point
+  else
+    result = 0 
+  end
   index = 0 
   while index < source_array.length do
     result += source_array[index]
