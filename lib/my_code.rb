@@ -30,11 +30,11 @@ def map_to_double(source_array)
 end
 
 def map_to_square(source_array)
-  sqaure_array = []
+  square_array = []
   index = 0 
   while index < source_array.length do 
     sqaure_array << source_array **= 2 
     index += 1 
   end
-  sqaure_array
+  square_array
 end
