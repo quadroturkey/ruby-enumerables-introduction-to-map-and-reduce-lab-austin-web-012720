@@ -11,6 +11,10 @@ end
 
 
 def map_to_no_change(source_array)
-  source_array
+  no_change_array = []
+  index = 0 
+  while index < source_array do
+    no_change_array << source_array[index]
+  end
 end
 
